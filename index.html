@@ -112,6 +112,9 @@
         margin-top: 10px;
         border-radius: 5px;
         border-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
 
       .add:hover {
@@ -132,29 +135,38 @@
         }
         .container {
           margin: 0;
-          width: 85%;
+          width: 100%;
           flex-direction: column;
-          height: 80%;
+          height: 100%;
         }
         .sample {
+          height: 290px;
           width: 100%;
-          height: 200px;
+          object-fit: cover;
           border-top-right-radius: 15px;
           border-bottom-left-radius: 0;
         }
         .right {
-          height: 100%;
+          width: auto;
+          margin: 16px;
+          padding: 0;
+        }
+        .type {
           width: 100%;
-          padding: 15px;
         }
         .name {
+          width: 85%;
+        }
+        .numbers {
+          gap: 20px;
           width: 100%;
         }
         .add {
-          align-items: center;
-          align-content: center;
-          width: 90%;
+          width: 100%;
           height: 50px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
       }
     </style>
